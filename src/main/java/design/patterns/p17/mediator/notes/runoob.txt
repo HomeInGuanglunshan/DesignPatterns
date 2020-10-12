@@ -1,0 +1,9 @@
+、chatroom是中介？
+、前一篇，Mediator 代理了 User1 和 User2
+	、门面模式，facade
+、该篇，User 代理了 chatroom
+	、chatroom 也回调了 User 的方法
+、谁代理了谁，前者就是中介？
+	、A代理了B，A就是中介？
+、“具体类之间的关系及调度交给 Mediator 就行”
+	、那是不是也有，“具体类之间的关系及调度交给 User 就行”？

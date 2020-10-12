@@ -1,0 +1,11 @@
+、User 耦合 Mediator
+、MyMediator 又耦合 User？
+、构造 User1 和 User2 并不由 Test 负责
+	、由 createMediator 负责
+、MyMediator 虽然受到 User1 和 User2 的关联，但貌似没有发挥什么作用
+	、不关联也罢
+	、找些例子，它能于其中发挥作用的
+、有点像“门面模式”（facade）
+、workAll()有点门面模式的感觉
+	、毕竟 Test 没有依赖任何 User，不“门面”不行啊
+、为什么是 Mediator 发起行为，而不是 User？

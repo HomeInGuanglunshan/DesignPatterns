@@ -1,0 +1,17 @@
+、relay，转发
+	、relay 方法写得有点简陋了————demo 而已，不必介怀
+	、遍历 colleague list，如果找到其他对象，立马让该对象 receive。此法适合这个只有两个对象的list
+、没有重写 equal 方法？
+、还是有互相关联
+、receive就一输出
+、注册顺序由1到2
+、debug一下不就行了么。。。。。。硬生生地想，浪费力气
+、不等于自己才 receive
+、终于使用了 Mediator
+、有没有代理的痕迹？
+、往 Mediator 注册 User 时，也往 User set Mediator
+、和前面 cnblog 与 runoob 的不同之处在哪里？
+、真有点信息转达的味道
+、relay 就是一代理方法
+、感觉和 cnblog 和 runoob 的差不多
+、如此架构，在 spring 中会稍微显得麻烦，毕竟存在循环依赖
